@@ -1,0 +1,10 @@
+Enables WebGL in all web views.
+
+Seatbelt causes kernel to block Safari and Web.app clips from loading OpenGL :(
+To fix kill off MobileSafari's code signature:
+1. Backup /Applications/MobileSafari.app/MobileSafari
+2. Copy MobileSafari to a mac that has codesign
+3. Run codesign --remove-signature /path/to/MobileSafari.app/MobileSafari
+4. Transfer it back to the device and overwrite the existing MobileSafari
+5. Apply to /Applications/Web.app/Web
+6. Install WebGLEnabler

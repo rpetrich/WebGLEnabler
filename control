@@ -1,0 +1,9 @@
+Package: com.rpetrich.webglenabler
+Depends: mobilesubstrate, firmware (>= 4.2)
+Name: WebGLEnabler
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Enable WebGL in Safari and other web views
+Author: Ryan Petrich <rpetrich+webglenabler@gmail.com>
+Section: Tweaks
+dev: rpetrich
